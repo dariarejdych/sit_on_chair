@@ -16,11 +16,9 @@ header {
     list-style-type: none;
     float: right;
     margin: 12px 26px 12px 26px;
-    font-size: 14px;
 }
 #logo {
-    font-size: 16px;
-    margin-top: 12px;
+    font-size: 15px;
     color: white;
     float: left;
     text-transform: uppercase;
@@ -45,6 +43,7 @@ header {
     float: right;
     width: 500px;
     box-sizing: border-box;
+    /*border: 1px solid red;*/
 }
 .content_foto {
     width: 450px;
@@ -62,6 +61,7 @@ span.content_button {
     text-transform: uppercase;
     padding: 10px 30px 10px 30px;
     border-radius: 10px;
+    /*border: 1px solid red;*/
 }
 .content_button {
     text-align: center;
@@ -77,11 +77,13 @@ span.content_button {
     width: 1050px;
     height: 253px;
     margin: 26px 0 90px 0;
+    /*border: 1px solid red;*/
 }
 .box1 {
     background: url(../images/box1_img.jpg) no-repeat top center;
     width: 329px;
     height: 225px;
+    /*border: 1px solid red;*/
     display: inline-block;
 }
 .box2 {
@@ -103,7 +105,7 @@ span.content_button {
   color: gray;
 }
 h3 {
-  font-size: 16px;
+  font-size: 16
   width: 138px;
   border-bottom: 7px solid rgb(35, 185, 159);
 }
