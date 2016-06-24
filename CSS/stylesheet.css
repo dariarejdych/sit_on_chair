@@ -314,24 +314,25 @@ textarea {
     margin: 0 auto;
 }
 .form_checkbox {
-  font-size: 20px;
-  font-weight: lighter;
-color: rgb(147, 147, 147);
-text-align: center;
-margin: 20px 0;
+    font-size: 20px;
+    font-weight: lighter;
+    color: rgb(147, 147, 147);
+    text-align: center;
+    margin: 20px 0;
 }
 .button_send {
-  width: 342px;
-  background-color: rgb(35, 185, 159);
-  color: white;
-  border-radius: 10px;
-  text-transform: uppercase;
-  text-align: center;
-  font-size: 34px;
-  font-weight: bold;
-  padding: 18px 0;
-  margin: auto;
+    width: 342px;
+    background-color: rgb(35, 185, 159);
+    color: white;
+    border-radius: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 34px;
+    font-weight: bold;
+    padding: 18px 0;
+    margin: auto;
 }
+
 /*li {
   display:inline block;
   width 80px;
