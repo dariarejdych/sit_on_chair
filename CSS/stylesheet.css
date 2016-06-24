@@ -8,7 +8,6 @@ body {
 header {
     background-color: black;
     height: 40px;
-    /*border: 1px solid red;*/
 }
 .clear {
     clear: both;
@@ -135,7 +134,7 @@ h3 {
     color: rgb(87, 87, 87);
     border-bottom: 7px solid rgb(35, 185, 159);
     width: 315px;
-  padding-top: 30px;
+    padding-top: 30px;
 }
 .plan {
     width: 329px;
@@ -147,10 +146,10 @@ h3 {
     display: inline-block;
 }
 .standard {
-  margin-left: 20px;
+    margin-left: 20px;
 }
 .advance {
-  margin-left: 20px;
+    margin-left: 20px;
 }
 .circle {
     background: hsl(248, 9%, 82%);
@@ -210,11 +209,11 @@ h3 {
     box-sizing: border-box;
 }
 .info_purchase p {
-  color: rgb(147, 147, 147);
-  font-size: 24px;
-  text-align: center;
+    color: rgb(147, 147, 147);
+    font-size: 24px;
+    text-align: center;
 }
-  .btn_include {
+.btn_include {
     text-transform: uppercase;
     color: white;
     font-size: 16px;
@@ -228,79 +227,110 @@ h3 {
     margin-top: 165px;
     box-sizing: border-box;
     padding-top: 8px;
-  }
+}
 .txt1 {
-background-color: rgb(228, 228, 228);
-margin: 0 auto;
-padding: 10px 0;
+    background-color: rgb(228, 228, 228);
+    margin: 0 auto;
+    padding: 10px 0;
 }
 .txt2 {
-  background-color: rgb(241,241,241);
-  margin: 0 auto;
-  padding: 10px 0;
+    background-color: rgb(241, 241, 241);
+    margin: 0 auto;
+    padding: 10px 0;
 }
 sup {
-font-size: 18px;
-font-weight: normal;
+    font-size: 18px;
+    font-weight: normal;
 }
 .standard {
-  background-color: rgb(35, 185, 159);
+    background-color: rgb(35, 185, 159);
 }
-.standard > .circle {
-  background: rgb(249, 249, 249);
-  height: 26px;
-  border-radius: 50%;
-  box-shadow: 0 0 0 2px rgb(35, 185, 159);
-  width: 26px;
-  border: 15px solid rgb(35, 185, 159);
-  margin-left: 133px;
-  position: absolute;
+.standard> .circle {
+    background: rgb(249, 249, 249);
+    height: 26px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 2px rgb(35, 185, 159);
+    width: 26px;
+    border: 15px solid rgb(35, 185, 159);
+    margin-left: 133px;
+    position: absolute;
 }
-.standard > .title {
-  color:white;
+.standard> .title {
+    color: white;
 }
 .standard span {
-  color: rgb(35, 185, 159);
+    color: rgb(35, 185, 159);
 }
 .standard .txt1 {
-  background-color: rgb(249, 249, 249);
+    background-color: rgb(249, 249, 249);
 }
 .standard .txt2 {
-  background-color: rgb(228, 228, 228);
+    background-color: rgb(228, 228, 228);
 }
 .standard .txt3 {
-  background-color: rgb(249, 249, 249);
-  margin: 0 auto;
-  padding: 10px 0;
+    background-color: rgb(249, 249, 249);
+    margin: 0 auto;
+    padding: 10px 0;
 }
 .standard .btn_include {
-  background-color: white;
+    background-color: white;
 }
 .form {
-  width: 630px;
-  margin-top: 50px;
+    width: 630px;
+    margin-top: 50px;
+    display: inline-block;
+    float: left;
 }
-input {
-  width: 100%;
-  border: 1px solid rgb(35, 185, 159);
-  height: 63px;
-  font-size: 33px;
-  font-weight: lighter;
+input[type=text] {
+    width: 100%;
+    border: 1px solid rgb(35, 185, 159);
+    height: 63px;
+    font-size: 33px;
+    font-weight: lighter;
 }
-input:nth-child(2n) {
-  margin: 25px auto;
+input:nth-child(2) {
+    margin: 25px auto;
 }
 input:nth-child(3) {
-  height: 187px;
-  text-align: left;
+    height: 187px;
+    text-align: left;
 }
 textarea {
-  resize: none;
-  width: 100%;
-  height: 187px;
-  border: 1px solid rgb(35, 185, 159);
-  font-size: 33px;
+    resize: none;
+    width: 100%;
+    height: 187px;
+    border: 1px solid rgb(35, 185, 159);
+    font-size: 33px;
+    font-weight: lighter;
+}
+.form_right_side {
+    width: 400px;
+    display: inline-block;
+    float: right;
+    margin-top: 50px;
+}
+.red_chair {
+    display: block;
+    margin: 0 auto;
+}
+.form_checkbox {
+  font-size: 20px;
   font-weight: lighter;
+color: rgb(147, 147, 147);
+text-align: center;
+margin: 20px 0;
+}
+.button_send {
+  width: 342px;
+  background-color: rgb(35, 185, 159);
+  color: white;
+  border-radius: 10px;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 34px;
+  font-weight: bold;
+  padding: 18px 0;
+  margin: auto;
 }
 /*li {
   display:inline block;
