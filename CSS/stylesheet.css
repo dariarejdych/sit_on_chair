@@ -165,29 +165,62 @@ h3 {
     margin-top: 40px;
 }
 .circle_with_price {
-  background: #000;
-	height: 137px;
-	border-radius: 50%;
-	box-shadow: 0 0 0 2px hsl(248, 9%, 82%);;
-	width: 137px;
-	background: rgb(255, 255, 255);
-  margin-left: 96px;
-	position: absolute;
-  top: 20%;
-
-}
-.circle_with_price span {
-  text-transform: uppercase;
-  text-align: center;
-  color: rgb(194, 194, 194);
-  position: absolute;
-  margin-left: 25%;
-  top:30%;
-  border: 1px solid red;
+    background: #000;
+    height: 137px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 2px hsl(248, 9%, 82%);
+    ;
+    width: 137px;
+    background: rgb(255, 255, 255);
+    margin-left: 96px;
+    position: absolute;
+    top: 20%;
 }
 .circle_with_price .bigger_txt {
-  font-size: 40px;
-  font-style: bold;
+    text-transform: uppercase;
+    color: rgb(194, 194, 194);
+    position: absolute;
+    margin-left: 20%;
+    top: 20%;
+    font-size: 40px;
+    font-weight: bold;
+}
+#smaller_txt {
+    text-transform: uppercase;
+    color: rgb(194, 194, 194);
+    position: absolute;
+    margin-left: 20%;
+    top: 45%;
+    font-size: 16px;
+}
+.info_purchase {
+    background-color: rgb(228, 228, 228);
+    width: 329px;
+    height: 42px;
+    margin-top: 220px;
+    margin: 0, auto;
+}
+.info_purchase p {
+  color: rgb(147, 147, 147);
+  font-size: 24px;
+  text-align: center;
+}
+  .btn_include {
+    text-transform: uppercase;
+    color: white;
+    font-size: 16px;
+    background-color: rgb(35, 185, 159);
+    width: 122px;
+    height: 34px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-left: 103px;
+    text-align: center;
+    margin-top: 100px;
+  }
+body > section:nth-child(4) > div > div > div > div:nth-child(4) > div > p:nth-child(2) {
+background-color: rgb(241, 241, 241);
+height: 42px;
 }
 /*li {
   display:inline block;
