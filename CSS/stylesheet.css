@@ -161,7 +161,7 @@ h3 {
     background: hsl(248, 9%, 82%);
     margin-left: 133px;
     position: absolute;
-    top: -5%;
+    top: -7%;
 }
 .title {
     text-transform: uppercase;
@@ -169,11 +169,11 @@ h3 {
     font-size: 26px;
     display: block;
     text-align: center;
-    margin-top: 40px;
+    margin-top: 30px;
 }
 .circle_with_price {
     background: #000;
-    height: 137px;
+    height: 127px;
     border-radius: 50%;
     box-shadow: 0 0 0 2px hsl(248, 9%, 82%);
     ;
@@ -181,13 +181,13 @@ h3 {
     background: rgb(255, 255, 255);
     margin-left: 96px;
     position: absolute;
-    top: 20%;
+    top: 17%;
 }
 .bigger_txt {
     text-transform: uppercase;
     color: rgb(194, 194, 194);
     position: absolute;
-    margin-left: 20%;
+    margin-left: 25%;
     top: 20%;
     font-size: 40px;
     font-weight: bold;
@@ -204,8 +204,9 @@ h3 {
     background-color: rgb(228, 228, 228);
     width: 329px;
     height: 42px;
-    margin-top: 220px;
+    margin-top: 180px;
     margin: 0, auto;
+    box-sizing: border-box;
 }
 .info_purchase p {
   color: rgb(147, 147, 147);
@@ -223,23 +224,56 @@ h3 {
     display: inline-block;
     margin-left: 103px;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 165px;
+    box-sizing: border-box;
+    padding-top: 8px;
   }
 .txt1 {
 background-color: rgb(228, 228, 228);
-height: 42px;
 margin: 0 auto;
-padding-top: 10px;
+padding: 10px 0;
 }
 .txt2 {
   background-color: rgb(241,241,241);
-  height: 42px;
   margin: 0 auto;
-  padding-top: 10px;
+  padding: 10px 0;
 }
 sup {
 font-size: 18px;
 font-weight: normal;
+}
+.standard {
+  background-color: rgb(35, 185, 159);
+}
+.standard > .circle {
+  background: rgb(249, 249, 249);
+  height: 26px;
+  border-radius: 50%;
+  box-shadow: 0 0 0 2px rgb(35, 185, 159);
+  width: 26px;
+  border: 15px solid rgb(35, 185, 159);
+  margin-left: 133px;
+  position: absolute;
+}
+.standard > .title {
+  color:white;
+}
+.standard span {
+  color: rgb(35, 185, 159);
+}
+.standard .txt1 {
+  background-color: rgb(249, 249, 249);
+}
+.standard .txt2 {
+  background-color: rgb(228, 228, 228);
+}
+.standard .txt3 {
+  background-color: rgb(249, 249, 249);
+  margin: 0 auto;
+  padding: 10px 0;
+}
+.standard .btn_include {
+  background-color: white;
 }
 /*li {
   display:inline block;
