@@ -332,6 +332,29 @@ textarea {
     padding: 18px 0;
     margin: auto;
 }
+.copy {
+    color: rgb(155, 155, 155);
+    display: inline-block;
+    float: left;
+    font-size: 16px;
+}
+.footer_logo {
+    color: rgb(155, 155, 155);
+    font-size: 20px;
+    display: inline-block;
+    float: right;
+}
+.footer_logo_bold {
+    font-weight: bold;
+}
+.social_media {
+    display: inline-block;
+    float: right;
+    margin-right: 80px;
+}
+.footer {
+    margin: 100px 0 50px 0;
+}
 
 /*li {
   display:inline block;
