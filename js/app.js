@@ -21,8 +21,34 @@ document.addEventListener("DOMContentLoaded", function() {
 
     var prevBtn = document.querySelector(".prev");
     var imgChair = document.querySelector(".content_foto img");
-    prevBtn.addEventListener("click", function(){
-      console.log("klik");
-      imgChair.src="images/red_chair.png";
+
+    var tab = ["images/black_chair.png", "images/orange.png"];
+    var counter = 0;
+    var setImage = function() {
+      console.log("name " + counter);
+        imgChair.src = tab[counter];
+    };
+setImage();
+    prevBtn.addEventListener("click", function() {
+      if (counter <= 0) {
+          counter = tab.length -1;
+      }else {
+          counter--;
+      }
+        setImage()
     });
+
+    var nextBtn = document.querySelector(".next");
+    nextBtn.addEventListener("click", function() {
+
+      if (counter >= tab.length - 1) {
+          counter = 0;
+      }else {
+          counter++;
+      }
+
+        setImage();
+
+    });
+
 });
