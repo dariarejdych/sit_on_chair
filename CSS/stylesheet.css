@@ -4,6 +4,7 @@
 }
 body {
     font-family: "Raleway", sans-serif;
+    margin: 0;
 }
 header {
     background-color: black;
@@ -12,14 +13,53 @@ header {
 .clear {
     clear: both;
 }
-.menu_lista {
+ul {
+    margin: 0;
+    padding: 0;
+}
+.menu_list {
     font-size: 14px;
     text-transform: uppercase;
     list-style-type: none;
     color: white;
-    display: inline;
+    display: inline-block;
     float: right;
     margin: 0 10px;
+}
+.prev {
+    color: rgb(35, 185, 159);
+    font-size: 80px;
+    width: 50px;
+    display: inline-block;
+    float: left;
+    margin-top: 100px;
+    text-align: center;
+}
+.next {
+    color: rgb(35, 185, 159);
+    font-size: 80px;
+    width: 50px;
+    display: inline-block;
+    float: right;
+    margin-top: 100px;
+    text-align: center;
+}
+.submenu {
+    display: none;
+    list-style: none;
+    position: absolute;
+    margin-top: 10px;
+    display: inline-block;
+    float: right;
+}
+.submenu li {
+    position: relative;
+    width: 120px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    /*border: 1px solid red;*/
 }
 #logo {
     text-transform: uppercase;
@@ -46,12 +86,12 @@ header {
 }
 .content_text {
     float: right;
-    width: 500px;
+    width: 520px;
     box-sizing: border-box;
     /*border: 1px solid red;*/
 }
 .content_foto {
-    width: 450px;
+    width: 430px;
     float: left;
 }
 .content_text span {
@@ -355,26 +395,3 @@ textarea {
 .footer {
     margin: 100px 0 50px 0;
 }
-
-/*li {
-  display:inline block;
-  width 80px;
-}
-ul.main > li {
-  position:relative; inline-height:30px;
-}
-ul.main ul{
-  position: absolute;
-  top:30px;
-  background: gray;
-  color:#fff;
-  display:none;
-}
-ul .main li hover > ul{
-  display: block;
-}
-ul, li {
-  margin: 0;
-  padding: 0px;
-  list-style: none;
-}*/
