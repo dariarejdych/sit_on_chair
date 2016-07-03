@@ -353,12 +353,30 @@ textarea {
     display: block;
     margin: 0 auto;
 }
-.form_checkbox {
-    font-size: 20px;
-    font-weight: lighter;
-    color: rgb(147, 147, 147);
-    text-align: center;
-    margin: 20px 0;
+input[type="checkbox"] {
+    display: none;
+}
+
+input[type="checkbox"] + label p {
+    display: inline-block;
+    width: 48px;
+    height: 40px;
+    margin: 20px 0 20px 25px;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 1px solid lightgrey;
+    float: left;
+}
+
+input[type="checkbox"]:checked + label p {
+    background: url("../images/form_ok.jpg") top no-repeat;
+}
+
+span#checkboxText {
+	color: lightgrey;
+	width: 80%;
+	margin: 20px 0;
+	float: right;
 }
 .button_send {
     width: 342px;
