@@ -13,9 +13,16 @@ header {
 .clear {
     clear: both;
 }
-ul {
+nav {
+  box-sizing: border-box;
+}
+nav ul {
     margin: 0;
     padding: 0;
+    float: right;
+}
+.rel {
+  position: relative;
 }
 .menu_list {
     font-size: 14px;
@@ -25,6 +32,36 @@ ul {
     display: inline-block;
     float: right;
     margin: 0 10px;
+    padding: 13px 0;
+}
+.submenu {
+  background-color: black;
+  position: absolute;
+  box-sizing: content-box;
+  margin-top: 20px;
+}
+.submenu-li {
+  border: 1px solid red;
+  list-style-type: none;
+}
+.submenu-li li {
+  padding: 5px;
+  text-transform: none;
+  font-size: 14px;
+  text-align: center;
+}
+.submenu:after,
+.submenu::before
+ {
+bottom: 100%;
+left: 40%;
+border: solid transparent 10px;
+border-bottom: solid 10px black;
+content: " ";
+height: 0;
+width: 0;
+position: absolute;
+pointer-events: none;
 }
 .prev {
     color: rgb(35, 185, 159);
@@ -44,36 +81,23 @@ ul {
     margin-top: 100px;
     text-align: center;
 }
-.submenu {
-    display: none;
-    list-style: none;
-    position: absolute;
-    margin-top: 10px;
-    display: inline-block;
-    float: right;
-}
-.submenu li {
-    position: relative;
-    width: 120px;
-    background-color: black;
-    color: white;
-    text-align: center;
-    padding: 5px;
-    /*border: 1px solid red;*/
-}
 #logo {
     text-transform: uppercase;
     color: white;
     margin: 0;
+    width: 120px;
+    float: left;
+    padding: 11px 0;
     /*border: 1px solid red;*/
 }
 #logo span {
     color: rgb(35, 185, 159);
     margin: 0;
+
 }
 #first_section {
     width: 100%;
-    height: 400px;
+    height: 500px;
     /*border: 1px solid red;*/
     background: rgba(252, 252, 252, 1);
     background: -moz-linear-gradient(top, rgba(252, 252, 252, 1) 0%, rgba(206, 206, 213, 1) 100%);
@@ -321,6 +345,9 @@ sup {
     display: inline-block;
     float: left;
 }
+form input {
+  padding: 0 0 5px 10px;
+}
 input[type=text] {
     width: 100%;
     border: 1px solid rgb(35, 185, 159);
@@ -342,6 +369,7 @@ textarea {
     border: 1px solid rgb(35, 185, 159);
     font-size: 33px;
     font-weight: lighter;
+    padding: 0 0 5px 10px;
 }
 .form_right_side {
     width: 400px;
